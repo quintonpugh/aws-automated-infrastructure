@@ -4,7 +4,7 @@ pipeline {
     environment {
         TF_IN_AUTOMATION = 'true'
         TF_INPUT         = 'false'
-        TF_DATA_DIR      = '/tmp/aws-project2-tfdata'
+        TF_DATA_DIR      = '/var/lib/jenkins/.terraform-data/project2'
     }
 
     stages {
